@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Stylish');
+
+* {
+    /* font-family: 'Unica One', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Stylish', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Unica One', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Stylish', sans-serif;
+    box-sizing: border-box;
+    background-color: #E9EBEE;
+}
+
+.border-3 {
+    border-bottom: 1.5px solid rgb(138, 137, 137);
+}
+
+.my-navbar {
+    /* background-image: linear-gradient(to right, #136a8a, #267871); */
+    border-bottom: 1px solid #136a8a;
+}
+
+nav .navbar-brand {
+    color: #FFF !important;
+    border-left: 1px solid #136a8a;
+    border-right: 1px solid #136a8a;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-image: linear-gradient(to right, #136a8a, #267871);
+}
+
+nav .navbar-nav li a{
+    color: #136a8a !important;
+}
+
+.lead {
+    /* word-spacing: 0.5rem; */
+    letter-spacing: 1rem;
+}
+
+.title-and-intro-in-index {
+    margin-top: 1.5rem;
+    /* border: 1.5px solid rgb(138, 137, 137); */
+    padding: 2rem;
+}
+
+.version-in-about {
+    border: 1.5px solid rgb(138, 137, 137);
+    padding: 0.3rem 3rem;
+}
+
+.my-btn {
+    /* border: 1.5px solid rgb(138, 137, 137); */
+    margin-right: 0.4rem;
+    padding: 0.3rem 3rem;
+    color: #FFF;
+    /* background-image: linear-gradient(to right, #055A63, #0D6862); */
+    background-image: linear-gradient(to right, #136a8a, #267871);
+    border-radius: 0;
+    border: 0;
+    letter-spacing: 0.3rem;
+}
+
+.my-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #136a8a;
+    letter-spacing: 0.3rem;
+}
+
+.my-outline-btn {
+    margin-right: 0.4rem;
+    padding: 0.3rem 3rem;
+    color: #136a8a;
+    /* background-image: linear-gradient(to right, #055A63, #0D6862); */
+    /* background-image: linear-gradient(to right, #136a8a, #267871); */
+    border-radius: 0;
+    border: 1px solid #136a8a;
+    letter-spacing: 0.3rem;
+}
+
+.my-outline-btn:hover {
+    color: #FFF;
+    background-image: linear-gradient(to right, #136a8a, #267871);
+}
+
+.img-in-home {
+    width: 15%;
+    height: auto;
+    border-top: 1.5px solid rgb(138, 137, 137);
+    border-bottom: 1.5px solid rgb(138, 137, 137);
+    padding: 1rem 0rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.alert-custom {
+    background-image: linear-gradient(to right, #2fa7d3, #45d1c5);
+    border-radius: 0;
+    border: 0;
+    color:#fff;
+}
+
+.card {
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0.7rem;
+}
+
+.post-title {
+    font-size: 1.5rem;
+}
+
+.btn-light {
+    border-radius: 0;
+}
+
+.back-btn {
+    border: 1px solid #2fa7d3;
+    border-radius: 0;
+    padding: 0.5rem;
+}
+
+.back-btn:hover {
+    background-image: linear-gradient(to right, #136a8a, #267871);
+    color: #FFF;
+}
+
+.my-border {
+    border: 0px solid #2fa7d3;
+    padding: 0.5rem;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.my-padding {
+	padding: 0.5rem 2rem;
+}
